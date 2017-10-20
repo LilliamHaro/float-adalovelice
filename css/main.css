@@ -1,0 +1,22 @@
+h1{
+ text-align: center;
+ outline:1px solid yellow;
+}
+.caja{
+ width: 400px;
+ /*outline: 1px solid red;---> sirve para ver como se estan dibujando los elementos en html*/
+ padding:10px; /*por el modelo de cajas este padding se va a sumar dos veces al width*/
+ border:1px solid #999; /*por el modelo de cajas este border se va a sumar 2 veces al width*/
+ margin:2px; /*el margin no se suma al width ya que se posiciona externamente*/
+ box-sizing: border-box; /*hace que respete el width y que el padding y el border no lo modifiquen*/
+ float:left; /*tener cuidado del elemnto contendor*/
+ margin:4px;
+}
+
+div img{
+ outline:1px solid blue;
+ max-width: 100%;/**ajusta la imagen a su contenedor*/
+}
+p{
+ outline:1px solid orange;
+}
